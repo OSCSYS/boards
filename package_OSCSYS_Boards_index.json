@@ -1,0 +1,43 @@
+{
+  "packages": [
+    {
+      "name": "OpenTroller",
+      "maintainer": "OSCSYS",
+      "websiteURL": "https://github.com/oscsys/boards",
+      "email": "",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "OpenTroller ATMEGA1284P",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "http://github.com/oscsys/boards"
+          },
+          "url": "https://github.com/OSCSYS/boards/raw/master/opentroller-1.0.0.zip",
+          "archiveFileName": "opentroller-1.0.0.zip",
+          "checksum": "SHA-256:c9dc47f3520884e7180977b1517575189782c7df9d40b6fb96f396fdc2244d2e",
+          "size": "15005",
+          "boards": [
+            {"name": "OpenTroller ATMEGA1284P"}          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ],
+      "tools":[]
+    }
+  ]
+}
